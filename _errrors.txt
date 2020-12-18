@@ -1,0 +1,4 @@
+ValidationError: Invalid configuration object. Module Federation Plugin has been initialized using a configuration object that does not match the API schema.
+configuration has an unknown property 'fileName'. These properties are valid:
+
+BREAKING CHANGE: No more changes should happen to Compilation.assets after sealing the Compilation.
