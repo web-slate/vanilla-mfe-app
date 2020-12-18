@@ -1,0 +1,1 @@
+document.querySelector('#plp-app').innerHTML = 'product list goes here';
