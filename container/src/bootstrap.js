@@ -1,1 +1,3 @@
-import 'product/ProductListIndex';
+import '@plp/ProductListIndex';
+
+console.log('bootstrap loaded');
