@@ -12,7 +12,8 @@ module.exports = {
     new ModuleFederationPlugin({
       name: "container",
       remotes: {
-        product: "product@http://localhost:8081/remoteEntry.js",
+        // Key property will be called inside `container` App - import 'keyName/yourFile''
+        '@plp': "productList@http://localhost:8081/remoteEntry.js",
       },
     }),
     new HtmlWebpackPlugin({
